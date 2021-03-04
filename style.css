@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+:root {
+	--desktop-font-size: 2rem;
+	--mobile-font-size: 1.125rem;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-size: var(--mobile-font-size);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+img {
+	width: 254px;
+	height: 252px;
+	object-fit: cover;
+}
+
+.carousel {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	width: 375px;
+	height: 667px;
+	overflow: hidden;
+	border: 1px solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-between;
+	width: 306px;
+	border: 1px solid red;
+	border: 1px solid red;
+	overflow: hidden;
+}
+
+.image-div {
+	text-align: center;
+	padding-top: 54px;
+}
+
+.img {
+	border: 1px solid blue;
+	margin-bottom: 68px;
+}
+
+.card-body {
+	width: 306px;
+}
+
+h5.card-title {
+	margin: 0;
+	font-size: inherit;
+}
+
+p.text-muted {
+	margin-top: 0;
+	color: lightslategray;
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 297px;
+}
