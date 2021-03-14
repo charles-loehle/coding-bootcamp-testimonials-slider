@@ -17,7 +17,7 @@ body {
 	background-repeat: no-repeat;
 	/* background-size: 91%, 73%, 14%; */
 	background-size: 330px, 278px, 65px;
-	background-position: 59% 4%, 6% 104%, 51% 61%;
+	background-position: 36% 7%, 1% 100%, 51% 61%;
 	background-color: #fff;
 	font-family: 'Inter', sans-serif;
 	font-size: var(--mobile-font-size);
@@ -35,10 +35,8 @@ img {
 }
 
 .carousel {
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	width: 375px;
 	height: 667px;
-	/* overflow: hidden; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -49,7 +47,6 @@ img {
 	display: flex;
 	justify-content: space-between;
 	width: 306px;
-	/* overflow: hidden; */
 }
 
 .image-div {
@@ -111,6 +108,10 @@ p.text-muted {
 }
 
 @media screen and (min-width: 1000px) {
+	body {
+		background-size: 703px, 367px, 109px;
+		background-position: 95% 105%, 0% 100%, 21% 21%;
+	}
 	.carousel {
 		flex-direction: row;
 		justify-content: center;
@@ -167,6 +168,11 @@ p.text-muted {
 	p.text-muted {
 		grid-area: job-title;
 		font-size: 22px;
+	}
+
+	.buttons-container {
+		top: 650px;
+		left: 650px;
 	}
 }
 
